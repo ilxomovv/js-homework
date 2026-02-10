@@ -17,7 +17,7 @@ if(nimaga.length <=10) {
     
 
     console.log("siz nima uchun institutga kirishni xohganingizni yozmadingiz");
-    
+    var nimaga = prompt("boshqatdan kiriting 10 ta harfdan kam bo'lmasin")
 }else{
     alert("raxmat😉")
 }
