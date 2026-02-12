@@ -9,6 +9,7 @@ if(ism==""){
     alert("ism juda kam")
 
     var ism = prompt("Ismingizni kiriting").trim();
+
 }
 var nimaga = prompt("nima uchun institutga kirishni xohlaysiz")
 
