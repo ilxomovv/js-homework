@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maktab Blog - Bosh Sahifa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🎓 Maktab Blog</h1>
+            <nav>
+                <a href="index.php">Bosh Sahifa</a>
+                <a href="#about">Haqida</a>
+                <a href="#contact">Bog'lanish</a>
+                <a href="login.html" class="btn-login">Kirish</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Qidirish</h3>
+                <input type="text" id="searchInput" placeholder="Post qidirish...">
+                <button id="searchBtn">Qidirish</button>
+            </div>
+            
+            <div class="widget">
+                <h3>Kategoriyalar</h3>
+                <ul id="categoriesList">
+                    <li><a href="#" data-category="all">Barcha postlar</a></li>
+                    <li><a href="#" data-category="news">Yangiliklar</a></li>
+                    <li><a href="#" data-category="events">Tadbirlar</a></li>
+                    <li><a href="#" data-category="science">Fan</a></li>
+                    <li><a href="#" data-category="sports">Sport</a></li>
+                </ul>
+            </div>
+
+            <div class="widget">
+                <h3>So'nggi Postlar</h3>
+                <ul id="recentPosts">
+                    <li><a href="#">Yangi o'quv yili boshlandi!</a></li>
+                    <li><a href="#">Sport musobaqasi</a></li>
+                    <li><a href="#">Fan oyligi</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="content">
+            <div class="hero">
+                <h2>Xush Kelibsiz!</h2>
+                <p>Maktabimiz blog sahifasida siz eng so'nggi yangiliklar, tadbirlar va ma'lumotlar bilan tanishishingiz mumkin.</p>
+            </div>
+
+            <div id="postsContainer">
+                <!-- Postlar PHP orqali yuklanadi -->
+            </div>
+
+            <div class="add-post-section">
+                <h3>Yangi Post Qo'shish</h3>
+                <form id="addPostForm">
+                    <input type="text" id="postTitle" placeholder="Post sarlavhasi" required>
+                    <select id="postCategory">
+                        <option value="news">Yangiliklar</option>
+                        <option value="events">Tadbirlar</option>
+                        <option value="science">Fan</option>
+                        <option value="sports">Sport</option>
+                    </select>
+                    <textarea id="postContent" placeholder="Post matni..." rows="5" required></textarea>
+                    <button type="submit" class="btn-submit">Post Qo'shish</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Maktab Blog. Barcha huquqlar himoyalangan.</p>
+            <p>Tel: +998 90 123-45-67 | Email: info@maktab-blog.uz</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
