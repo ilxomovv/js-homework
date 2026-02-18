@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let input = prompt("Misolni kiriting (masalan: 10 + 5):");
+
+let qismlar = input.split(" ");
+
+let son1 = Number(qismlar[0]);
+let amal = qismlar[1];
+let son2 = Number(qismlar[2]);
+
+let natija;
+
+
+switch (amal) {
+    case "+":
+        natija = son1 + son2;
+        break;
+    case "-":
+        natija = son1 - son2;
+        break;
+    case "*":
+        natija = son1 * son2;
+        break;
+    case "/":
+        if (son2 === 0) {
+            natija = "Nolga bo'lish mumkin emas!";
+        } else {
+            natija = son1 / son2;
+        }
+        break;
+    default:
+        natija = "Noma'lum amal kiritildi!";
+}
+
+
+alert("Natija: " + natija);
+
+    </script>
+</body>
+</html>
