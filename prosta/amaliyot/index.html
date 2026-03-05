@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // var input = prompt("tug'ilgan yilingizni kiriting");
+        // function yoshniHisoblash (input){
+        //     var natija = 2026 - input;
+        //     if(natija < 18){
+        //         alert("siz voyaga yetgansiz");
+        //     }else{
+        //         alert("siz voyaga yetmagansiz")
+        //     }
+        //     return natija;
+        // }
+        // var meningYoshim = yoshniHisoblash(Number(input));
+        // alert("sizning yoshingiz" + meningYoshim); 
+
+        
+        // var input = prompt("yoshingizni tekshiramiz");
+        // function yoshTekshiramiz(yosh){
+        //     var yosh = input;
+        //     if(input < 18){
+        //         alert("siz voyaga yetmagansiz " + input + " yosh ekansiz");
+        //     }else{
+        //         alert("siz voyaga yetgansiz " + input + " yosh ekansiz");
+        //     }
+        // }
+        // var result = yoshTekshiramiz(input)
+
+
+        // alert("Yusuf prodaction Film studio");
+        // var yosh = prompt("yoshingizni kiriting")
+        // var pul = prompt("yoningizda bor summa");
+
+        // function kinogaChipta(pul, yosh){
+        //     if(yosh >= 12 && pul >=20000){
+        //         alert("marhamat hush kelibsiz");
+        //     }else if(yosh < 12){
+        //         alert("juda yoshsiz kino 18+");
+        //     }else{
+        //         alert("siz kambag'al misiz?")
+        //     }
+        // }
+        // kinogaChipta(pul, yosh)
+
+
+        // var input = prompt("mana sizga ko'paytirish");
+
+        // function Karakarajadvali (inputSon){
+
+        //     for(var i = 1; i<= 10; i++){
+        //         var natija = inputSon * i;
+        //         alert(inputSon + " x " + i + " = " + natija);
+        //     }
+        // }
+        // Karakarajadvali(input)
+
+//         function parolSura() {
+//     var maxfiy = "yusuf777"; // Biz kutayotgan to'g'ri javob
+//     var kiritilgan = "";    // Foydalanuvchi yozadigan narsani saqlash uchun bo'sh quti
+
+//     // WHILE - "Toki kiritilgan so'z maxfiy so'zga TENG EMAS ekan, aylanaver" degani
+//     // !== belgisi "teng emas" degan ma'noni bildiradi
+//     while (kiritilgan !== maxfiy) {
+        
+//         // Prompt har safar qayta chiqadi, chunki shart hali "teng emas" bo'lib turibdi
+//         kiritilgan = prompt("Maxfiy parolni kiriting (To'g'ri topmaguningizcha qo'ymayman!):");
+
+//         // Agar foydalanuvchi noto'g'ri yozsa, unga xabar beramiz
+//         if (kiritilgan !== maxfiy) {
+//             alert("Xato! '" + kiritilgan + "' paroli noto'g'ri. Qayta urinib ko'ring.");
+//         }
+//     }
+
+//     // Agar foydalanuvchi to'g'ri parolni yozsa, WHILE sikli to'xtaydi va pastdagi kod ishlaydi
+//     alert("Tabriklaymiz! '" + maxfiy + "' to'g'ri topildi. Endi kira olasiz.");
+// }
+
+// // Funksiyani chaqiramiz
+// parolSura();
+
+
+        // 1. Massiv yaratish (Kvadrat qavs ishlatiladi)
+// var mevalar = ["Olma", "Banan", "Gilos"];
+
+// function mevaniKorsat(royxat) {
+//     // Diqqat! Dasturlashda sanash 0 dan boshlanadi.
+//     // 0 - Olma, 1 - Banan, 2 - Gilos
+//     var tanlanganMeva = royxat[1]; 
+    
+//     alert("Ro'yxatdagi ikkinchi meva: " + tanlanganMeva);
+// }
+
+// // Funksiyani chaqiramiz
+// mevaniKorsat(mevalar)
+
+// Har 1000 millisekundda (ya'ni 1 sekundda) funksiya ishlaydi
+
+
+var ism = prompt("ismingizni kiriting");
+var familiya = prompt("familyangizni kiriting");
+
+function toqJuft(ismed, familiyaed){
+    var ismed = ism.length % 2 ===0;
+    var familiyaed = familiya.length % 2 ===0;
+    alert(ismed);
+    alert(familiyaed);
+}
+
+toqJuft(ism % 2 ===0);
+
+</script>
+
+
+<h1 id="soat">00:00:00</h1>
+
+<script>
+    setInterval(function() {
+        var vaqt = new Date().toLocaleTimeString();
+        document.getElementById("soat").innerHTML = vaqt; // HTMLdagi matnni o'zgartiradi
+    }, 1000);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var arr = [];
+    function random(){
+        
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
