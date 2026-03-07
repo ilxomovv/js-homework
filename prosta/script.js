@@ -312,3 +312,114 @@
 //     }
 // }
 // console.log(dasturchi.salomlashish());
+
+
+//object methods//
+
+//this method
+// var dasturchi = {
+//     ism: "Yusufjon",
+//     familiya: "Ilxomov",
+
+//     salomlashish: function(){
+//         console.log("salom mening ismim " + this.ism);
+        
+//     }
+// }
+
+// dasturchi.salomlashish();
+
+
+//object methods
+//!--keys--!//
+// var dasturchi = {
+//     ism: "Yusufjon",
+//     familiya: "Ilxomov"
+// }
+// console.log(Object.keys(dasturchi));
+
+//!--values--!//
+// var dasturchi = {
+//     ism: "Yusufjon",
+//     familiya: "Ilxomov"
+// }
+// console.log(Object.values(dasturchi).join(" "));
+
+//!--entiries--!//
+// var dasturchi = {
+//     ism: "Yusufjon",
+//     familiya: "Ilxomov"
+// }
+// console.log(Object.entries(dasturchi));
+
+
+//if-else//
+//if statement
+// var a = 5;
+// if(a > 0){
+//     alert("5 0 dan katta");
+// }else{
+//     alert("yolg'on")
+// }
+
+//if else statement
+// var a = 5;
+// if(a > 0){
+//     alert("1");
+// }else{
+//     alert("2")
+// }
+
+//if else if statement
+// var a = 5;
+// if(a > 5){
+//     alert("5soni 5 soni dan katta");
+// }else if(a === 5){
+//     alert("ha");
+// }else{
+//     alert("hammasi yolg'on");
+// }
+
+
+//switch//
+// var num = 2;
+// var result;
+// switch(num){
+//     case 1:
+//         result = 'bir';
+//     break;
+//     case 2:
+//         result = 'ikki';
+//         break;
+//     default:
+//         result("topilmadi");
+//         break;
+// }
+
+// console.log(`qiymat: ${result}`)
+
+//for loop//
+// for(var i = 0; i <= 10; i++){
+//     console.log(i);    
+// }
+
+// var summa = 0;
+// for(var i = 0; i <= 10; i++){
+//     summa += i
+// }
+// console.log(`summa: ${summa}`);
+
+// for (var i = 1; i <= 5; i++){
+//     if(i === 3){
+//         break
+//     }
+//     console.log(i);
+    
+// }
+for (var i = 1; i <= 5; i++){
+    if(i === 3){
+        continue;
+    }
+    console.log(i);
+    
+}

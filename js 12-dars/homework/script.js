@@ -48,6 +48,4 @@ array metodlaridan kiriting (misol uchun:push, pop, unshift, shift, toString, jo
     
 }
 
-arraymetodlaridan();
-
-arraymetodlaridan();
+arraymetodlaridan(boysAndGirls);
