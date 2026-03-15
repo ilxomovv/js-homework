@@ -1,15 +1,15 @@
 // BIRINCHI VAZIFA
-// var input = prompt("son kiriting men sizga juft yoki toqligini topib beraman");
+var input = prompt("son kiriting men sizga juft yoki toqligini topib beraman");
 
-// function juftyokitoq(){
-//     if(input % 2 == 0){
-//         alert("bu juft son");
-//     }else{
-//         alert("bu toq son");
-//     }
-// }
+function juftyokitoq(){
+    if(input % 2 == 0){
+        alert("bu juft son");
+    }else{
+        alert("bu toq son");
+    }
+}
 
-// juftyokitoq();
+juftyokitoq();
 
 //IKKINCHI VAZIFA
 // var inputt = prompt("son kiriting men katta yoki kichkinaligini bilib beraman");
@@ -22,4 +22,4 @@
 //     return inputtt;
 // }
 // kattayokikichkina();
-// alert(kattayokikichkina() + " shu son katta")
+// alert(kattayokikichkina() + " shu son katta");
